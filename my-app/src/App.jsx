@@ -1,13 +1,13 @@
-import Balloon from './Components/Balloon'
+import Balloon from "./Components/Balloon";
 
-const data = new Array(10).fill()
+let balloons = new Array(10).fill();
 
 function App() {
-  return(
+  return (
     <>
-      <h1>Count:</h1>
-      {data.map((index) => <Balloon key={index}></Balloon>)}
+      {balloons.map((x, i) => <Balloon key={i} text = {i + 1} />)}
     </>
   );
 }
+
 export default App;

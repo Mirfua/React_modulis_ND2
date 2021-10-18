@@ -1,5 +1,22 @@
 .balloon {
-  width: 150px;
-  height: 200px;
+  margin: 10px;
+  width: 120px;
+  height: 150px;
   border-radius: 50%;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+.counter {
+  text-align: center;
+  display: inline-block;
+  height: 30px;
+  width: 200px;
+  position: absolute;
+  left: 6%;
+  transform: translate(-50%);
+  background-color: #fff;
 }
